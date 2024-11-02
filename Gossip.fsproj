@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Gossip.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.5.13" />
+    <PackageReference Include="Akka.FSharp" Version="1.5.13" />
+    <PackageReference Include="Akka.TestKit" Version="1.5.13" />
+    <PackageReference Include="Akka.Remote" Version="1.5.13"/>
+  </ItemGroup>
+</Project>
